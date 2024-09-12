@@ -1,5 +1,10 @@
 .header {
-  width: 100px;
+  width: 320px;
   height: 100px;
   background-color: red;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
 }
