@@ -1,18 +1,9 @@
-@import './header.scss';
-@import './vite-promo.scss';
-
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+@import url('./common/reset.scss');
+@import url('./common/header.scss');
+@import url('./common/footer.scss');
+@import url('./common/advantage.scss');
+@import url('./common/prehistoric.scss');
+@import url('./common/reviews.scss');
+@import url('./common/gallery.scss');
+@import url('./common/disclaimer.scss');
+@import url('./common/faq.scss');
