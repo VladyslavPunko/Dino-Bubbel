@@ -9,6 +9,7 @@
 .gallery-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .gallery-title {
@@ -17,4 +18,47 @@
   font-weight: 400;
   font-size: 16px;
   color: #ffc800;
+}
+
+.card-one {
+  border-radius: 16px;
+  // width: 136px;
+  // height: 224px;
+  position: absolute;
+  left: 70px;
+  z-index: 1;
+}
+.card-two {
+  left: 0;
+  position: absolute;
+  border-radius: 16px;
+  // width: 136px;
+  // height: 224px;
+  transform: rotate(-8deg);
+}
+.card-three {
+  position: absolute;
+  right: 0;
+  border-radius: 16px;
+  // width: 136px;
+  // height: 224px;
+  transform: rotate(8deg);
+}
+.card-four {
+  position: relative;
+  top: 350px;
+  left: -50px;
+  z-index: 1;
+  border-radius: 16px;
+  // width: 180px;
+  // height: 294px;
+}
+.card-five {
+  position: relative;
+  top: -70px;
+
+  right: -55px;
+  border-radius: 16px;
+  // width: 240px;
+  // height: 394px;
 }
