@@ -1,0 +1,51 @@
+.advantages-section {
+  background: #001e1a;
+  width: 320px;
+}
+.advantages-content {
+  background: linear-gradient(
+    180deg,
+    rgba(3, 254, 139, 0.4) 0%,
+    rgba(0, 30, 26, 0.2) 42.59%
+  );
+}
+.advantages-title {
+  text-align: center;
+  font-family: Fredoka One, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffc800;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.li {
+  border-radius: 12px;
+  padding: 12px 16px;
+  width: 168px;
+  height: 74px;
+  background: #02784c;
+}
+
+.list .li:nth-child(2n) {
+  margin-left: 44px;
+}
+
+.title {
+  font-family: Fredoka One, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffc800;
+  margin-bottom: 6px;
+}
+
+.description {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #fefefe;
+}
