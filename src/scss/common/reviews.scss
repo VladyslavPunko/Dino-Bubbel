@@ -1,16 +1,27 @@
 .reviews-section {
-  background: linear-gradient(
-    180deg,
-    rgba(3, 254, 139, 0.4) 0%,
-    rgba(0, 30, 26, 0.4) 100%
-  );
-
+  background: #00201a;
   border-radius: 12px 12px 0 0;
   width: 320px;
   height: 1080px;
-  padding: 0 16px;
+  // padding: 0 16px;
   display: flex;
   flex-direction: column;
+}
+
+.liner {
+  background: linear-gradient(
+    180deg,
+    rgba(3, 254, 139, 0.4) 0%,
+    rgba(0, 30, 26, 0.2) 42.59%
+  );
+}
+
+.reviews-title {
+  text-align: center;
+  font-family: Fredoka One, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffc800;
 }
 
 .text-cloud {
