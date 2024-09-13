@@ -1,15 +1,16 @@
 .container {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 320px;
-  background: #00201a;
+  background: #033229;
   position: relative;
 }
 .term-back-up {
   display: none;
 }
 .trem-container {
+  background: #00201a;
   width: 320px;
-
+  border-radius: 12px 12px 0 0;
   background: linear-gradient(
     180deg,
     rgba(3, 254, 139, 0.4) 0%,
@@ -26,8 +27,19 @@
   margin-bottom: 24px;
 }
 
+.term-list-terminatio {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
 .term-list-item {
+  font-weight: 600;
+
+  font-size: 10px;
   color: #fefefe;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .firs {
@@ -43,21 +55,17 @@
   color: #ffc800;
 }
 .term-small-title {
+  font-family: 'Fredoka One', sans-serif;
   margin-bottom: 12px;
   color: #ffc800;
   font-weight: 400;
   font-size: 12px;
 }
 .term-text {
-  margin-bottom: 24px;
-  color: #fefefe;
-}
-
-.term-text-last {
-  margin-bottom: 52px;
   font-weight: 600;
   font-size: 10px;
-  line-height: 10px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 24px;
   color: #fefefe;
 }
 
@@ -76,6 +84,11 @@
   padding: 11px 97.5px;
 }
 
-.br {
-  margin-bottom: 16px;
+.term-text-last {
+  font-weight: 600;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 52px;
+  color: #fefefe;
+  line-height: 14px;
 }
