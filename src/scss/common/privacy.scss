@@ -92,3 +92,88 @@
   color: #fefefe;
   line-height: 14px;
 }
+
+@media (min-width: 1440px) {
+  .container {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .term-back-up {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ffc800;
+    width: 203px;
+    height: 54px;
+    border-radius: 16px;
+    padding: 16px 20px;
+    color: #02784c;
+    margin-left: auto;
+    margin-bottom: 100px;
+  }
+
+  .trem-container {
+    margin: 20px auto;
+    width: 1440px;
+
+    padding: 52px 172px 120px;
+  }
+
+  .term-tittle {
+    display: none;
+  }
+
+  .term-small-title {
+    font-size: 32px;
+    font-weight: 400px;
+    margin-bottom: 60px;
+  }
+
+  .term-list {
+    gap: 48px;
+    margin-bottom: 120px;
+  }
+
+  .term-list-item {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .term-text {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 79px;
+  }
+
+  .term-list-terminatio {
+    gap: 32px;
+    margin-bottom: 80px;
+  }
+
+  .term-list-item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .term-text-last {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 137px;
+  }
+  .term-back-down {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ffc800;
+    width: 203px;
+    height: 54px;
+    border-radius: 16px;
+    padding: 16px 20px;
+    color: fill;
+    margin-left: auto;
+  }
+}
