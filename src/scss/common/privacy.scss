@@ -1,13 +1,21 @@
 .container {
   margin: 0 auto;
   width: 320px;
+  background: #00201a;
+  position: relative;
 }
 .term-back-up {
   display: none;
 }
 .trem-container {
   width: 320px;
-  background: linear-gradient(rgba(3, 254, 139, 0.4), rgba(0, 30, 26, 0.4));
+
+  background: linear-gradient(
+    180deg,
+    rgba(3, 254, 139, 0.4) 0%,
+    rgba(0, 30, 26, 0.2) 42.59%
+  );
+
   padding: 28px 16px 56px;
 }
 
@@ -27,7 +35,7 @@
 }
 
 .term-tittle {
-  font-family: Fredoka One, sans-serif;
+  font-family: 'Fredoka One', sans-serif;
   margin-bottom: 31px;
   font-weight: 400px;
   font-size: 16px;
