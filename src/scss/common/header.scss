@@ -79,3 +79,40 @@
 .header.open .close {
   display: block;
 }
+
+@media (min-width: 1440px) {
+  .header {
+    border-radius: 0 0 32px 32px;
+    // padding: 36px 60px;
+    width: 1440px;
+    height: 111px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: unset;
+  }
+  .nav-box {
+    border-radius: unset;
+    flex-direction: row;
+    background-color: unset;
+    width: 780px;
+    height: auto;
+    justify-content: flex-end;
+    align-items: unset;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+}
