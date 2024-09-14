@@ -1,7 +1,9 @@
 .advantages-section {
+  margin: 0 auto;
   background: #001e1a;
   width: 320px;
 }
+
 .advantages-content {
   background: linear-gradient(
     180deg,
@@ -64,4 +66,14 @@
 .grass-adv {
   position: relative;
   z-index: 1;
+}
+
+@media (min-width: 1440px) {
+  .advantages-section {
+    width: 1440px;
+  }
+
+  .advantages-title {
+    font-size: 40px;
+  }
 }
