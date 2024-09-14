@@ -63,24 +63,10 @@
   color: #fefefe;
 }
 
-.dino-text {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 40px;
-}
-
 .dino-privacy {
   width: 136px;
   filter: drop-shadow(-30px 0 10px rgba(0, 0, 0, 0.5));
-  margin-bottom: 12px;
-}
-
-.man-text {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  margin-bottom: 81px;
+  margin: 0 auto;
 }
 
 .man-privacy {
@@ -166,7 +152,6 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-bottom: 140px;
   }
 
   .privacy-list {
@@ -238,7 +223,7 @@
     margin: 0;
     position: absolute;
     right: 170px;
-    top: 2155px;
+    top: 2000px;
   }
 
   .marketing {
@@ -247,5 +232,16 @@
 
   .ptw {
     width: 1096px;
+  }
+  .dino-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 153px;
+  }
+  .man-text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }
