@@ -35,3 +35,52 @@
   color: #1c1c1c;
   margin: 8px 0 20px 0;
 }
+
+.google-btn {
+  border-radius: 12px;
+  width: 136px;
+  height: 43px;
+}
+
+.phone {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .prehistoric {
+    width: 1440px;
+    height: 926px;
+
+    background-image: url('../../img/back-prehistoric-desk.png');
+    background-size: cover;
+    background-position: 100%;
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  .title-descr-btn {
+    width: 738px;
+    height: 332px;
+  }
+
+  .prehistoric-title {
+    font-size: 64px;
+    text-align: unset;
+  }
+  .prehistoric-description {
+    font-size: 24px;
+    text-align: unset;
+  }
+
+  .google-btn {
+    border-radius: 20px;
+    width: 280px;
+    height: 88px;
+  }
+
+  .phone {
+    display: block;
+  }
+}
