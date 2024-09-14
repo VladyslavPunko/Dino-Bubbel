@@ -1,7 +1,7 @@
 .container {
   margin: 20px auto;
   width: 320px;
-  background: #033229;
+  background: #074539;
   position: relative;
 }
 .privacy-back-up {
@@ -129,43 +129,72 @@
   .privacy-container {
     margin: 20px auto;
     width: 1440px;
-
     padding: 52px 172px 120px;
   }
 
   .privacy-small-title {
+    text-align: left;
     font-size: 32px;
     font-weight: 400px;
     margin-bottom: 60px;
   }
 
+  .dino-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 153px;
+  }
+
+  .man-text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 81px;
+  }
+
   .privacy-list {
-    gap: 48px;
-    margin-bottom: 120px;
+    gap: 32px;
+    margin-bottom: 0;
   }
 
   .privacy-text {
+    width: 921px;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 79px;
+    margin-bottom: 32px;
+    text-align: left;
   }
 
   .privacy-list-terminatio {
-    gap: 8px;
-    margin-bottom: 40px;
+    width: 650px;
+    gap: 32px;
   }
 
   .privacy-list-item {
+    width: 650px;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.3;
+    text-align: left;
   }
 
+  .dino-privacy {
+    min-width: 202px;
+    height: 264px;
+    margin: 0;
+  }
+
+  .man-privacy {
+    margin: 0;
+    width: 270px;
+    height: 340px;
+  }
   .privacy-text-last {
     font-weight: 600;
+    text-align: left;
     font-size: 20px;
     line-height: 1.3;
-    margin-bottom: 137px;
+    margin-bottom: 100px;
   }
   .privacy-back-down {
     display: block;
@@ -179,5 +208,13 @@
     padding: 16px 20px;
     color: fill;
     margin-left: auto;
+  }
+  .right {
+    width: 1096px;
+  }
+  .priv-dino-last {
+    width: 140px;
+    height: 140px;
+    margin: 0;
   }
 }
