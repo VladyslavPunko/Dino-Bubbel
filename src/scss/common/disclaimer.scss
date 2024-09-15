@@ -11,6 +11,7 @@
   padding: 28px 16px;
   position: relative;
   text-align: center;
+  border-radius: 32px 32px 0 0;
 }
 
 .disclamer-bubble-log {
@@ -69,4 +70,65 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
+}
+
+@media (min-width: 1440px) {
+  .disclaimer {
+    width: 1440px;
+    height: 998px;
+    padding: 42px 93px 236px 648px;
+    text-align: left;
+  }
+
+  .disclamer-bubble-log {
+    margin-left: auto;
+    display: block;
+    width: 406px;
+    height: 240px;
+    margin-bottom: 20px;
+  }
+
+  .disclaimer-dino {
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    transform: none;
+  }
+
+  .grass-disclamer {
+    width: 1440px;
+  }
+
+  .grass-disclamer {
+    height: 200px;
+  }
+
+  .disclaimer-title-disk {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 48px;
+  }
+
+  .disclaimer-description-disk {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: lowercase;
+    text-align: left;
+    width: 541px;
+    margin-bottom: 42px;
+  }
+
+  .disk-googl {
+    width: 203px;
+    height: 64px;
+    margin-bottom: 0;
+  }
+
+  .disk-googl-img {
+    width: 203px;
+    height: 64px;
+  }
 }
