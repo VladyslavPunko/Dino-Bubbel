@@ -8,7 +8,8 @@
     "build": "vite build --base=/Dino-Bubble/",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "deploy": "netlify deploy -p",
+    "preview:build": "vite build && vite preview"
   },
   "devDependencies": {
     "glob": "^8.1.0",
