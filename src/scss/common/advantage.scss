@@ -76,6 +76,11 @@
 @media (min-width: 1440px) {
   .advantages-section {
     width: 1440px;
+    height: 1268px;
+  }
+
+  .advantages-content {
+    position: relative;
   }
 
   .advantages-title {
@@ -85,17 +90,18 @@
   .man-adv {
     width: 558px;
     height: 730px;
-    top: 250px;
+    top: 450px;
   }
 
   .grass-adv {
+    top: 230px;
     width: 1440px;
     height: 254px;
   }
   .list {
     left: 220px;
-    top: 490px;
-    position: relative;
+    top: 90px;
+    position: absolute;
     width: 1191px;
     height: 677px;
     flex-direction: row;
