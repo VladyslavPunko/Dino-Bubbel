@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Dino-Bubble/",
+    "build": "vite build --base=/Dino-Bubbel/",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "netlify deploy -p",
