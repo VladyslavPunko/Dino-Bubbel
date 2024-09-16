@@ -152,8 +152,8 @@
 .grass {
   width: 320px;
   height: 60px;
-  position: relative;
-  top: 215px;
+  position: absolute;
+  top: 1567px;
   bottom: 0;
 }
 
@@ -255,6 +255,8 @@
   }
 
   .grass {
+    height: auto;
+    top: 2135px;
     width: 1440px;
   }
 
