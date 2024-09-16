@@ -152,8 +152,8 @@
 .grass {
   width: 320px;
   height: 60px;
-  position: absolute;
-  top: 1567px;
+  position: relative;
+  top: 215px;
   bottom: 0;
 }
 
@@ -255,10 +255,7 @@
   }
 
   .grass {
-    position: absolute;
-    top: 2135px;
     width: 1440px;
-    height: auto;
   }
 
   .img-mob {
