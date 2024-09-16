@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   questions.forEach(question => {
     question.addEventListener('click', () => {
-      const answer = question.nextElementSibling;
+      const targetId = question.getAttribute('data-target');
+      const answer = document.getElementById(targetId);
 
       if (answer.style.maxHeight) {
         answer.style.maxHeight = null;
