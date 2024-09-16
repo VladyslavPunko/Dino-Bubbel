@@ -93,23 +93,6 @@
     width: 1440px;
     height: 254px;
   }
-  // .list {
-
-  //   position: relative;
-  //   width: 100%;
-  //   max-width: 1200px;
-  //   margin: 0 auto;
-  //   height: 677px;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  //   gap: 20px;
-  // }
-
-  // .li {
-  //   border-radius: 24px;
-  //   width: calc(33.33% - 20px);
-  //   height: 158px;
-  // }
 
   .div-ul {
     position: relative;
@@ -119,10 +102,10 @@
 
   .list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
-    grid-template-rows: repeat(3, auto); /* 3 строки */
-    gap: 20px; /* Отступы между карточками */
-    justify-items: center; /* Центрирование карточек */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    justify-items: center;
     align-items: center;
     position: relative;
     width: 100%;
@@ -131,7 +114,7 @@
   }
 
   .li {
-    width: 300px; /* Примерная ширина карточки */
+    width: 300px;
     height: 150px;
     border-radius: 24px;
   }
