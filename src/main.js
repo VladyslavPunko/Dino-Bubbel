@@ -1,3 +1,5 @@
+let lastScrollPosition = 0;
+
 const header = document.querySelector('.header');
 const burger = document.querySelector('.burger');
 const close = document.querySelector('.close');
@@ -8,6 +10,19 @@ burger.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
   header.classList.remove('open');
+});
+
+window.addEventListener('scroll', () => {
+  let currentScrollPosition =
+    window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScrollPosition > lastScrollPosition) {
+    header.style.top = '-100px';
+  } else {
+    header.style.top = '0';
+  }
+
+  lastScrollPosition = currentScrollPosition;
 });
 
 document.addEventListener('DOMContentLoaded', function () {
