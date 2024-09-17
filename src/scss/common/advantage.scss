@@ -24,6 +24,7 @@
 }
 
 .list {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -101,6 +102,7 @@
   }
 
   .list {
+    margin-top: unset;
     top: 80px;
     left: 400px;
     display: grid;
@@ -173,5 +175,13 @@
 
   .description {
     font-size: 16px;
+  }
+
+  .elips {
+    z-index: 0;
+    height: 200px;
+    width: 200px;
+    top: 15px;
+    position: absolute;
   }
 }
