@@ -120,12 +120,25 @@
     min-height: 1939px;
     margin: 0 auto;
     padding: 80px 318px 427px 318px;
+    overflow: hidden; /* Hide anything outside the section */
   }
 
-  .grad {
-    width: 762px;
-    height: auto;
-    margin: 0 auto;
+  .faq::before {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Aligns the background image to the bottom */
+    right: -79px; /* Aligns the background image to the extreme right */
+    background-image: url('../../img/bac-drop-faq.png'); /* Update to the new image */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the container */
+    width: 1517px; /* Set width of the new image */
+    height: 2180px; /* Set height of the new image */
+    background-position: right bottom; /* Ensure the image is aligned to the bottom-right corner */
+    z-index: -1; /* Ensure the image is behind other content */
+  }
+
+  .faq::after {
+    display: none; /* Hide mobile-specific background images */
   }
 
   .heder-faq {
