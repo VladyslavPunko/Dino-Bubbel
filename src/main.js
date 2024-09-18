@@ -17,7 +17,8 @@ window.addEventListener('scroll', () => {
     window.pageYOffset || document.documentElement.scrollTop;
 
   if (currentScrollPosition > lastScrollPosition) {
-    header.style.top = '-100px';
+    header.classList.remove('open');
+    header.style.top = '-150px';
   } else {
     header.style.top = '0';
   }
