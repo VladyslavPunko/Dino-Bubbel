@@ -6,6 +6,7 @@
 }
 
 .advantages-content {
+  padding-top: 28px;
   background: linear-gradient(
     180deg,
     rgba(3, 254, 139, 0.4) 0%,
@@ -20,11 +21,8 @@
   color: #ffc800;
 }
 
-.div-ul {
-}
-
 .list {
-  margin-top: 10px;
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -41,6 +39,25 @@
 
 .list .li:nth-child(2n) {
   margin-left: 120px;
+}
+.list .li:nth-child(1),
+.list .li:nth-child(2) {
+  box-shadow: 5px -5px 10px #fffb00;
+}
+
+.list .li:nth-child(3),
+.list .li:nth-child(4) {
+  box-shadow: -5px -5px 10px #fffb00;
+}
+
+.list .li:nth-child(5),
+.list .li:nth-child(6) {
+  box-shadow: 5px 5px 10px #fffb00;
+}
+
+.list .li:nth-child(7),
+.list .li:nth-child(8) {
+  box-shadow: -5px 5px 10px #fffb00;
 }
 
 .title {
@@ -86,11 +103,11 @@
   .man-adv {
     width: 558px;
     height: 730px;
-    top: -200px;
+    top: -250px;
   }
 
   .grass-adv {
-    top: -460px;
+    top: -485px;
     width: 1440px;
     height: 254px;
   }
