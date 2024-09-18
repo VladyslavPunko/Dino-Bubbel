@@ -31,6 +31,7 @@
   font-family: Fredoka One, sans-serif;
   font-weight: 400;
   font-size: 16px;
+  margin-top: 14px;
   color: #ffc800;
 }
 
@@ -41,12 +42,13 @@
   line-height: 140%;
   color: #fefefe;
   margin-top: 12px;
+  margin-bottom: 24px;
 }
 
 @media (min-width: 1440px) {
   .about-section {
     width: 1440px;
-    height: 950px;
+    min-height: 1100px;
   }
 
   .about-content {
@@ -55,6 +57,8 @@
 
   .about-title {
     font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 80px;
   }
 
   .width-div {
