@@ -12,6 +12,8 @@ close.addEventListener('click', () => {
   header.classList.remove('open');
 });
 
+document.body.style.overflowX = 'hidden';
+
 window.addEventListener('scroll', () => {
   let currentScrollPosition =
     window.pageYOffset || document.documentElement.scrollTop;
