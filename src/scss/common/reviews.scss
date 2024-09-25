@@ -1,12 +1,13 @@
 .reviews-section {
   margin: 0 auto;
   background: #00201a;
-  border-radius: 12px 12px 0 0;
+
   width: 320px;
   height: 1120px;
   // padding: 0 16px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .leafes {
   background-color: transparent;
@@ -164,10 +165,10 @@
   bottom: 0;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .reviews-section {
     flex-direction: row;
-    width: 1440px;
+    width: 1280px;
     height: 1586px;
   }
 
@@ -211,7 +212,7 @@
   }
   .rock-desk {
     display: block;
-    width: 755px;
+    width: 700px;
     height: 383px;
   }
 
@@ -243,7 +244,7 @@
   }
 
   .images-div {
-    left: 700px;
+    left: 650px;
     position: relative;
     top: -1350px;
     bottom: 0;
@@ -256,8 +257,8 @@
 
   .grass {
     height: auto;
-    top: 2135px;
-    width: 1440px;
+    top: 2175px;
+    width: 1280px;
   }
 
   .img-mob {
