@@ -114,31 +114,31 @@
   z-index: 3;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .faq {
-    width: 1440px;
+    width: 1280px;
     min-height: 1939px;
     margin: 0 auto;
     padding: 80px 618px 104px 60px;
-    overflow: hidden; /* Hide anything outside the section */
+    overflow: hidden;
   }
 
   .faq::before {
     content: '';
     position: absolute;
-    bottom: 0; /* Aligns the background image to the bottom */
-    right: -79px; /* Aligns the background image to the extreme right */
-    background-image: url('../../img/bac-drop-faq.png'); /* Update to the new image */
+    bottom: 0;
+    right: -130px;
+    background-image: url('../../img/bac-drop-faq.png');
     background-repeat: no-repeat;
-    background-size: cover; /* Ensure the image covers the container */
-    width: 1517px; /* Set width of the new image */
-    height: 2180px; /* Set height of the new image */
-    background-position: right bottom; /* Ensure the image is aligned to the bottom-right corner */
-    z-index: -1; /* Ensure the image is behind other content */
+    background-size: cover;
+    width: 1517px;
+    height: 2180px;
+    background-position: right bottom;
+    z-index: -1;
   }
 
   .faq::after {
-    display: none; /* Hide mobile-specific background images */
+    display: none;
   }
 
   .heder-faq {
