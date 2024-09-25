@@ -11,7 +11,6 @@
   padding: 28px 16px;
   position: relative;
   text-align: center;
-  // border-radius: 32px 32px 0 0;
 }
 
 .disclamer-bubble-log {
@@ -72,9 +71,9 @@
   z-index: 2;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .disclaimer {
-    width: 1440px;
+    width: 1280px;
     height: 998px;
     padding: 42px 93px 236px 648px;
     text-align: left;
